@@ -13,6 +13,18 @@ public class VehiculoImpl implements Vehiculo {
     private String condicionAdquisicion;
     private boolean vendido;
 
+    public VehiculoImpl(String matricula, String bastidor, String marca, String modelo, String color,
+            LocalDate fechaMatriculacion, String condicionAdquisicion, boolean vendido) {
+        this.matricula = matricula;
+        this.bastidor = bastidor;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.color = color;
+        this.fechaMatriculacion = fechaMatriculacion;
+        this.condicionAdquisicion = condicionAdquisicion;
+        this.vendido = vendido;
+    }
+
     public String getMatricula() {
         return matricula;
     }
