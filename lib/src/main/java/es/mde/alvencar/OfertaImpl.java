@@ -3,14 +3,12 @@ package es.mde.alvencar;
 public class OfertaImpl implements Oferta {
     private float ofertaVenta;
     private float ofertaAlquiler;
-    private Vehiculo vehiculo;
 
     public OfertaImpl() {}
 
-    public OfertaImpl(float ofertaVenta, float ofertaAlquiler, Vehiculo vehiculo) {
+    public OfertaImpl(float ofertaVenta, float ofertaAlquiler) {
         this.ofertaVenta = ofertaVenta;
         this.ofertaAlquiler = ofertaAlquiler;
-        this.vehiculo = vehiculo;
     }
 
     @Override
@@ -29,14 +27,5 @@ public class OfertaImpl implements Oferta {
     @Override
     public void setOfertaAlquiler(float ofertaAlquiler) {
         this.ofertaAlquiler = ofertaAlquiler;
-    }
-
-    @Override
-    public Vehiculo getVehiculo() {
-        return vehiculo;
-    }
-    @Override
-    public void setVehiculo(Vehiculo vehiculo) {
-        this.vehiculo = vehiculo;
     }
 }

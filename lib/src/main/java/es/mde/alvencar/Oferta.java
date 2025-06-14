@@ -6,7 +6,4 @@ public interface Oferta {
 
     float getOfertaAlquiler();
     void setOfertaAlquiler(float ofertaAlquiler);
-
-    Vehiculo getVehiculo();
-    void setVehiculo(Vehiculo vehiculo);
 }
