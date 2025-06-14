@@ -13,6 +13,10 @@ public class VehiculoImpl implements Vehiculo {
     private String condicionAdquisicion;
     private boolean vendido;
 
+    public VehiculoImpl() {
+
+    }
+    
     public VehiculoImpl(String matricula, String bastidor, String marca, String modelo, String color,
             LocalDate fechaMatriculacion, String condicionAdquisicion, boolean vendido) {
         this.matricula = matricula;
