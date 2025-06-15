@@ -1,5 +1,7 @@
 package es.mde.alvencar;
-
+/**
+ * @author Ziencia
+ */
 public class OfertaImpl implements Oferta {
     private float ofertaVenta;
     private float ofertaAlquiler;

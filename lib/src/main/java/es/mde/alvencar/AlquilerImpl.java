@@ -1,7 +1,9 @@
 package es.mde.alvencar;
 
 import java.time.LocalDateTime;
-
+/**
+ * @author Ziencia
+ */
 public class AlquilerImpl extends TransaccionImpl implements Alquiler {
     private LocalDateTime fechaHoraDevolucion;
     private float kmAntes;

@@ -1,7 +1,9 @@
 package es.mde.alvencar;
 
 import java.time.LocalDateTime;
-
+/**
+ * @author Ziencia
+ */
 public class VentaImpl extends TransaccionImpl implements Venta {
     private String regimen;
     private LocalDateTime fechaFinGarantia;

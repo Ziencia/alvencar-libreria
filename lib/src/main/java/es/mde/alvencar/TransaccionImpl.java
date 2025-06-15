@@ -1,7 +1,9 @@
 package es.mde.alvencar;
 
 import java.time.LocalDateTime;
-
+/**
+ * @author Ziencia
+ */
 public class TransaccionImpl implements Transaccion {
 
     private float importe;

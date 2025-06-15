@@ -2,6 +2,9 @@ package es.mde.alvencar;
 
 import java.time.LocalDateTime;
 
+/**
+ * @author Ziencia
+ */
 public class FacturaImpl implements Factura {
 
     private String conceptoFactura;
